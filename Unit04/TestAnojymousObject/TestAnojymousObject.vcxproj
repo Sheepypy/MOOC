@@ -23,7 +23,7 @@
     <ProjectGuid>{76E7AA04-ECE2-4E74-B187-5F8C314984BE}</ProjectGuid>
     <RootNamespace>TestAnojymousObject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>3TestAnojymousObject</ProjectName>
+    <ProjectName>3TestAnonymousObject</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,7 +124,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="TestAnojymousObject.cpp" />
+    <ClCompile Include="TestAnonymousObject.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -46,8 +46,8 @@ int main() {
 	Account a2 = Account(100.0);
 	a1.depoist(9.0);
 	cout << a1.withdraw(10.0) << endl;
-	cout << a2.withdraw(52.0) << endl;
-	cout << Account(1000.0).withdraw(10001.0) << endl;
+	cout << a2.withdraw(52.0) << endl;//非匿名对象
+	cout << Account(1000.0).withdraw(10001.0) << endl;//匿名对象
 
 	return 0;
 }

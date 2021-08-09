@@ -1,0 +1,30 @@
+1 TestCircle:类的基本实现
+在TestCircle.cpp中建立了一个Circle类，并用"."访问对象成员；
+
+2 TestObjectCopy：对象拷贝
+在TestObjectCopy.cpp中建立了一个Square类，并用=来进行对象拷贝（数据域分别拷贝）；
+
+3 TestAnonymousObject：匿名对象
+在TestAnonymousObject.cpp中建立了一个Account类，并测试匿名对象（只用一次不需命名）的使用；
+
+4 Circle：类声明与实现分离
+在Circle.h中声明Circle类（数据域和函数），在Circle.cpp中定义Circle类（函数），在main.cpp中调用类；
+
+5 TestObjectPointer：对象指针
+拷贝了4中Circle类的.h和.cpp文件
+在TestObjectPointer.cpp中测试直接或在堆中创建对象和对象数组、基于范围的for循环；
+
+6 TotalArea：
+对4中Circle类的.h和.cpp文件新增成员函数setRaius和getRadius后重命名为Circle2.h和Circle2.cpp；
+测试：对象数组，基于范围的for循环，求对象数组成员的和（圆的总面积）；用new的方式再次实现；
+
+7 ObjectAsArgument:对象作为参数
+拷贝了6中Circle类的.h和.cpp文件；编写三个参数类型不同的重载函数print用于输出Circle对象面积；
+
+8 ObjectAsReturn:对象作为函数返回值
+对6中Circle类的.h和.cpp文件改变成员函数setRaius返回值类型后重命名为Circle3.h和Circle3.cpp；
+分别测试对象和对象引用作为setRadius函数返回值的用法；
+
+
+
+
