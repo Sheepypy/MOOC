@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f8f4ad69-f0c3-49fa-9538-b63728f8a54d}</ProjectGuid>
-    <RootNamespace>TotalArea</RootNamespace>
+    <ProjectGuid>{b7963a9f-551e-44ad-834f-4e5c6c4e28db}</ProjectGuid>
+    <RootNamespace>TestString</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>06TotalArea</ProjectName>
+    <ProjectName>11TestString</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,11 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="circle2.cpp" />
-    <ClCompile Include="TotalaArea.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Circle2.h" />
+    <ClCompile Include="TestString.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

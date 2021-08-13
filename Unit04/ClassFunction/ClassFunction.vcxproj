@@ -23,7 +23,7 @@
     <ProjectGuid>{5A75E368-2118-43A1-BBF0-9AC38E5880F7}</ProjectGuid>
     <RootNamespace>ClassFunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>4Circle</ProjectName>
+    <ProjectName>04Circle</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

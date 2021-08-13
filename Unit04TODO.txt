@@ -25,6 +25,15 @@
 对6中Circle类的.h和.cpp文件改变成员函数setRaius返回值类型后重命名为Circle3.h和Circle3.cpp；
 分别测试对象和对象引用作为setRadius函数返回值的用法；
 
+9 InClassInitializer:类数据成员初始化
+测试不同的初始化方式是否通过；
 
+10 DefaultConstructor:默认构造函数，初始化列表
+编写两个类Circle和Square，再编写一个Combo类有一个Circle和一个Square对象；
+在Combo的无参构造函数中使用初始化列表的方式初始化内嵌对象（Circle和Square）；
 
+11 TestString:string类
+字符串的创建、清除、赋值、追加、插入、转化
 
+12 TestArray
+创建数组，为数组赋值，交换数组，求数组大小，编写search函数在数组中查找一个值，sort排序，二维数组(矩阵)

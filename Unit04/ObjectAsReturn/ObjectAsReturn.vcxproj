@@ -24,7 +24,7 @@
     <ProjectGuid>{3562ffb2-7687-4255-b53e-c23f2f35943d}</ProjectGuid>
     <RootNamespace>ObjectAsReturn</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>8ObjectAsReturn</ProjectName>
+    <ProjectName>08ObjectAsReturn</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
