@@ -1,0 +1,48 @@
+01 ConstexprAndAssert: Constexpr关键字和静态断言
+//任务1:用递归计算factorial,用assert检查3的阶乘
+//任务2:将factorial变成常量表达式，用static_ assert检查3的阶乘;
+//任务3:创建factorial(4)大小的数组
+
+02  ImmutableObject: 不可变对象&类
+在Date.h中定义Date类（用到类的初始化列表、std::to_string函数）；
+在Employee.h中定义Employee类；(用到指针成员Date*，枚举数据类型Gender，类的初始化列表，委托构造函数);
+在ImmutableObject.cpp中创建Employee对象，然后对返回的成员指针（Date*）解引用（->）修改其生日；
+
+03 StaticMembers:静态成员
+在Square.h中定义了Square对象，以及静态成员numberOfObjects（用于对生成的所有Square对象计数）及相应的静态成员函数；
+在StaticMembers.cpp中测试了静态成员的访问方式，静态成员函数与非静态成员函数对静态成员的读取；
+
+04 Destructor:析构函数
+基于<02ImmutableObject>改造；
+>>在Employee.h中，相较于<02ImmutableObject>的改动：
+//1：增加静态成员， 计算Employee对象的数量；
+//2：将Employee类的生日数据成员由Date类型改为Date*类型；
+//3：修改构造函数和析构函数；
+//4：在构造函数中增加numberOfObjects信息输出；
+>>在Date.h中，相较于<02ImmutableObject>的改动：
+//1：在构造函数中增加Date信息输出；
+>>在Destructor.cpp中，分别在堆（函数作用域）和栈（内嵌作用域)上创建Employee对象，观察析构函数和对象生命周期；
+
+05 CopyCtor:拷贝构造函数
+>>Square.h拷贝自<03 StaticMembers>,添加了拷贝构造函数、析构函数，添加输出信息
+>>CopyCtor.cpp：在栈和堆上分别拷贝创建Square对象
+
+06 DeepCopy：深浅拷贝
+复制<04 Destructor>中的Employee.h和Date.h，新增Employee.cpp和Date.cpp实现类声明与实现分离；
+
+07 Friend：友元
+在Date类中定义了友元类Kid和友元函数print；
+
+08 TestVector:
+在Helper.h中定义了PRINT输出函数，自定义了ostream对象（用于重载<<操作符）；
+在TestVector.cpp中测试了vector类的一系列操作；
+
+09 StringLiterals:字符串字面量
+分别测试了原生和c++14引入的StringLiterals的用法和作用；
+
+10 StackOfIntegers:整数栈
+在StackOfIntegers.h中声明了整数型的栈类型StackOfIntegers，并在StackOfInteger.cpp中定义；
+在TestStackOfIntegers.cpp中
+
+11 StructureBinding:结构化绑定声明
+用const、引用类型绑定原生数组，std::array数组，对象数据成员,结构体成员；

@@ -53,8 +53,8 @@ int main() {
 	cout << "-------------------------------" << endl;
 
 	//求数组大小
-	cout << a1.size() << endl;
-	cout << a1.max_size() << endl;
+	cout << a1.size() << endl;//元素数目
+	cout << a1.max_size() << endl;//能储存的最大的元素数目
 	cout << "-------------------------------" << endl;
 
 	//编写search函数在数组中查找一个值
