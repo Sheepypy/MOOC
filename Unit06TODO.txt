@@ -1,0 +1,27 @@
+01 Inheritance:继承
+circle.h和cpp文件复制于Unit04-06TotalArea;
+shape类为基类，让circle类和rectangle类继承；
+
+02 CtorOfInheritant: 继承中的构造函数，继承链和析构链
+测试继承链中的构造函数调用顺序 ；回顾了内嵌对象；
+cort执行顺序总结：先父类，后内嵌，最后本类;dtor相反；
+
+03 RedefineFunction:重定义函数
+circle,rectangle,shape的h和cpp文件拷贝自<01 Inheritance>，做出以下改动：
+1:改造Shape ::toString()函数，拆出：
+	(1)枚举颜色(color)转为字符串的代码
+	(2）布尔填充(filled)转为字符串的代码
+2:为Circle和Rectangle添加toString()函数
+3.测试typeid操作符
+
+04 Polymorphism：多态
+//任务1．创建A / B / C三个类，B继承A，C继承B，ABC均有tostring函数
+//任务2．创建print函数，接受A类型的参数，调用A对象的tostring()
+//任务3．重载print函数，接受B/C类型参数，调用tostring()
+//任务4．将基类A的toString函数改为虚函数
+//任务5．将print函数参数改为基类指针类型，main()中调用print()，实参为指向对象的基类指针
+//任务6．添加一个print函数，参数是基类引用类型，在main()中调用print()，参数为对象的基类引用
+//任务7. 测试抽象（纯虚）函数
+
+
+05 Accessibility：继承中的访问属性
